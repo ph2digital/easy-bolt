@@ -1,14 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* index.css ou App.css */
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-  }
- 
-  body {
-    @apply bg-gray-50 text-gray-900 antialiased;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Remove a barra de rolagem */
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: azure;
+
+  overflow: hidden; /* Evita o scroll na página */
+}
+
+.main-content {
+  flex: 1;
+  overflow: auto; /* Permite scroll apenas no conteúdo principal, se necessário */
 }

@@ -1,0 +1,73 @@
+.campaign-details {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.campaign-info {
+  grid-column: span 2;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.adset-details, .ad-details, .ad-info {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.adset-details h4, .ad-info h4 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.ad-details p, .adset-details p, .ad-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.adset-details {
+  cursor: pointer;
+}
+
+.ad-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f4f6f8;
+}
+
+.ad-details:hover, .adset-details:hover {
+  background-color: #e9ecef;
+}
+
+.adset-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.adset-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
